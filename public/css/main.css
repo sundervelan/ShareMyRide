@@ -1,0 +1,170 @@
+body {
+    background: #FEFEFE;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 15pt;
+    height: 500px;
+}
+
+main {
+    max-width: 100%;
+    margin: auto;
+    height:400px;
+}
+
+header {
+   border-bottom: 1px solid #afafaf;
+    float: left;
+    height: 100px;
+    width: 100%;
+    background-image: url("../images/er12.jpg");
+}
+.pageNotFound{
+     background-image: url("../images/rsz_1final404.jpg");
+     height:441px;
+     width:98%;
+     margin:13px;
+}
+.pageNotFound h1{
+    text-align:center;
+}
+.container{
+
+    /*border: 1px solid red;*/
+    float: left;
+    margin: 0;
+    min-height: 400px !important;
+    width: 100%;
+}
+.handlebar-part{
+    height:300px;
+    /*width:100%;*/
+    /*border:1px solid grey;*/
+}
+.sidebar-part{
+   /* border:1px solid blue;*/
+    min-height:300px;
+}
+
+.websiteHead{
+    font-family: helvetica !important;
+    font-size: 50px !important;
+    color:white !important;
+
+}
+.row{
+   float:left;
+   width:100%;
+   /*margin:0 8% !important;*/
+   /*border:1px solid green;*/
+}
+footer{
+    float: left;
+    height: 50px;
+    width: 100%;
+    background-image: url("../images/er12.jpg");
+    background-position: center top;
+    bottom:0px;
+    position:fixed;
+}
+address{
+    color:white;
+    font-size:18px;
+    float:left;
+    margin: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.15rem;
+}
+
+h6 {
+    font-size: 1.05rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2;
+}
+.signin{
+    float:left;
+    /*border:1px solid yellow;*/
+   /* margin:0px 64px;
+    width:80%;
+    padding: 0 10%;*/
+}
+
+.signin h1{
+    font-size:28px;
+    font-family:helvetica;
+    text-align:center;
+}
+.seek-provide-a{
+    color:black;
+    text-decoration:none;
+    font-size:18px;
+    font-family:helvetica;
+    text-align:center;
+    margin: 50px 15%;
+    float:left;
+}
+
+.seek-provide-content{
+    width:100%;
+    float:left;
+    border-radius:10px;
+    background-color:#89a1a1!important;
+    margin-top: -151px;
+}
+.signin-well{
+    border:1px solid transparent !important;
+    background-color:transparent !important;
+    border-radius:10px !important;
+}
+.signin-form-group{
+    float:left ;
+    margin:0px 10px;
+    width:29%;
+}
+.singin-form-control,.signin-submit-btn{
+    border-radius:10px;
+}
+.submit-form-group{
+     margin: 19px 39%;
+}
+.login-signup-div{
+    /*float:right;
+    border:1px solid red;
+    margin: -39px -224px 0 0;;*/
+}
+.login-signup-div span{
+    color:#89A1A1;
+}
+.signIn-images-div{
+    margin-top:64px;
+
+}
+
+.signIn-images-div img{
+    float:left;
+    margin: 0px 39px 0px 89px;
+}

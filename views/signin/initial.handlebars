@@ -1,0 +1,59 @@
+<section class="signin row">
+	<div class="col-sm-2"></div>
+	<div class="col-sm-8 col-sm-offset-1">
+		<h1 >So guys, What are you upto?</h1>
+		<!--<div class="login-signup-div">
+			<span><a href="" data-toggle="modal" data-target="#myModal">LogIn</a>/<a href="">SignUp</a></span>
+		</div>-->
+		<a class="seek-provide-a" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+	  	Seek A Ride </a>
+
+		<!--<a class="seek-provide-a"
+		 role="button"  data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">Provide A Ride</a>-->
+		 <a class="seek-provide-a" href="">Provide A Ride</a>
+		 <div class="signIn-images-div">
+		 	<img src="/public/images/seekingRide.jpg" alt="Seeking Ride" height="130" width="160">
+		 	<img src="/public/images/rideProvider.jpg" alt="Providing Ride" height="130" width="160">
+		 </div>
+		 
+
+		<div class="collapse seek-provide-content" id="collapseExample">
+		  <div class="well signin-well">
+		    <form id="static-form" method="post">
+		      <div class="form-group signin-form-group">
+		        <label for="number1">From</label>
+		        <input type="text" class="form-control singin-form-control" id="number1" name="number1" placeholder="eg.New Jersey" value="{{firstNumber}}">
+		      </div>
+		      <div class="form-group signin-form-group">
+		        <label for="number2">To</label>
+		        <input type="text" class="form-control singin-form-control" id="number2" name="number2" placeholder="eg.Virgina" value="{{secondNumber}}">
+		      </div>
+		      <div class="form-group signin-form-group">
+		        <label for="number2">Date</label>
+		        <input  class="form-control singin-form-control" id="number2" name="number2" placeholder="eg.MM/DD/YYYY-10/9/2016" value="{{secondNumber}}">
+		      </div>
+		      <div class="form-group hidden" id="error-container">
+		        <div class="alert alert-danger text-goes-here">
+		        </div>
+		      </div>
+		      <div class="form-group submit-form-group signin-form-group">
+		        <button type="submit signin-submit-btn" class="btn btn-default">Search</button>
+		      </div>
+	        <!--<div class="form-group submit-form-group signin-form-group">
+		        <button type="submit signin-submit-btn" class="btn btn-default">Log In</button>
+		      </div>
+					<form id="seekersignup-form" method="POST" action="/signup/seekersignup">
+	        <div class="form-group submit-form-group signin-form-group">
+		        <button type="submit signin-submit-btn" class="btn btn-default" id="seekersignup">Sign Up</button>
+		      </div>-->
+			</form>
+		      <div class="form-group hidden" id="result-container">
+		        <div class="alert alert-success text-goes-here"">
+		        </div>
+		      </div>
+		    </form>
+		  </div>
+		</div>
+	</div>
+	
+</section>
